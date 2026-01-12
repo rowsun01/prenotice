@@ -6,6 +6,10 @@
     
    
 }
+.container{
+    
+    
+}
 #myButton{
     color: black;
     background-color: rgb(194, 155, 155);
@@ -52,15 +56,10 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: auto;  
+    /* margin-top: auto;   */
     /* margin-top: 50px; */
     position: absolute;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png");
     
-    background-size:cover;
-    background-repeat: no-repeat;   
-    background-position: center;
-    background-attachment:fixed;
  
 }
 @media(max-width:768px){
@@ -79,7 +78,7 @@ body{
     font-weight: bold;
     position: relative;
     padding-top: 25%;
-    color: rgba(201, 29, 213, 0.777);
+    color: rgba(128, 161, 10, 0.777);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
 
@@ -92,25 +91,55 @@ body{
 }
 .first{
     font-size: 13vw;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
 
 }
 .second{
     font-size: 13vw;
     visibility:hidden ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
     /* height: 300px; */
 }
 .third{
     font-size: 13vw;
     visibility:hidden ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
     /* height: auto; */
 }
 .fourth{
     font-size: 13vw;
     visibility:hidden ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
 }
 .fifth{
     font-size: 13vw;
     visibility:hidden ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
 }
 .sixth{
     font-size: 20vw;
@@ -118,6 +147,12 @@ body{
     width: 100vw;
     padding-top: 40%;
     visibility:hidden ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:fixed;
 }
 footer{
     bottom: 30%;
