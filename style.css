@@ -93,7 +93,7 @@ body{
     font-size: 13vw;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:auto;
+    background-size:cover;
     background-repeat: no-repeat;   
     background-position: center;
     background-attachment:fixed;
