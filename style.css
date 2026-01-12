@@ -93,7 +93,7 @@ body{
     font-size: 13vw;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:cover;
+    background-size:auto;
     background-repeat: no-repeat;   
     background-position: center;
     background-attachment:fixed;
@@ -104,8 +104,8 @@ body{
     visibility:hidden ;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:cover;
-    background-repeat: no-repeat;   
+    /* background-size:cover; */
+    /* background-repeat: no-repeat;    */
     background-position: center;
     background-attachment:fixed;
     /* height: 300px; */
@@ -115,7 +115,7 @@ body{
     visibility:hidden ;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:cover;
+    /* background-size:cover; */
     background-repeat: no-repeat;   
     background-position: center;
     background-attachment:fixed;
@@ -126,7 +126,7 @@ body{
     visibility:hidden ;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:cover;
+    /* background-size:cover; */
     background-repeat: no-repeat;   
     background-position: center;
     background-attachment:fixed;
@@ -136,7 +136,7 @@ body{
     visibility:hidden ;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
-    background-size:cover;
+    /* background-size:cover; */
     background-repeat: no-repeat;   
     background-position: center;
     background-attachment:fixed;
@@ -175,7 +175,7 @@ footer{
     
 .myH1{
     
-    
+    height: 4rem;
     text-align: center;
     font-size: 5vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;

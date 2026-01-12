@@ -64,3 +64,8 @@ button.addEventListener("click", (event) => {
     button.textContent = "Play Music";
   }
 });
+setTimeout(()=>{
+    audio.pause();
+    audio.currentTime = 0;
+    button.textContent="Play Music"
+},31000);
