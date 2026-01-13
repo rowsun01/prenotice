@@ -52,6 +52,7 @@ function six(callback) {
     ttext.textContent="THANK YOU ";
     ttext.style.fontSize="3rem";
     ttext1.textContent="Rosap's Family";
+    ttext1.style.color="yellow";
     callback()
   }, 5000);
  
