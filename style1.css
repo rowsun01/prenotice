@@ -5,7 +5,9 @@ html, body {
   height: 100%;
   overflow: hidden; /* This is the key: it kills all scrolling */
   position: fixed;  /*Extra insurance against mobile elastic scrolling*/
-  color:white
+  color:white;
+  /* margin-top: 20px; */
+  
   
 }
 .container{
@@ -15,6 +17,7 @@ html, body {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
     
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
@@ -50,10 +53,11 @@ html, body {
     position: fixed;
     width: 100%;
     height: 5%;
-    margin: 0;
+    /* margin: 20px; */
     padding: 0;
+    
 
-    z-index: 999;
+    /* z-index: 999; */
 }
 /* #myButton{
     margin-top: 620px;
@@ -81,7 +85,8 @@ animation: blinker 2s linear infinite;
 }
 #myButton {
     font-size: 70px;
-    margin-top: 80vh;
+    margin-top: 78vh;
+    
    
     position: absolute;
 
@@ -90,9 +95,10 @@ animation: blinker 2s linear infinite;
 
 #button{
     font-size: 1.5rem;
+    color: rgb(165, 216, 14);
     padding: 8px;
     border: none;
     border-radius: 20px;
     margin-left: 16px;
-    background-color: rgba(137, 194, 194, 0.791);
+    background-color: rgba(68, 130, 130, 0.791);
 }
