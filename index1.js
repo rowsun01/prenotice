@@ -34,22 +34,24 @@ function three(callback) {
 function four(callback) {
   setTimeout(() => {
     ttext.textContent="You'll definitely want to be free for this special celebration."
-    ttext.style.fontSize="2rem";
+    ttext.style.fontSize="2.5rem";
     callback()  
   }, 5000);
  
-}
+};
 function five(callback) {
   setTimeout(() => {
-    ttext.textContent="You won't want to miss this."
+    ttext.textContent="You won't want to miss this.";
+    ttext.style.fontSize="3rem";
     callback()
   }, 5000);
  
-}
+};
 function six(callback) {
   setTimeout(() => {
-    ttext.textContent="THANK YOU "
-    ttext1.textContent="Rosap's Family"
+    ttext.textContent="THANK YOU ";
+    ttext.style.fontSize="3rem";
+    ttext1.textContent="Rosap's Family";
     callback()
   }, 5000);
  
