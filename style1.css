@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* This is the key: it kills all scrolling */
+  position: fixed;  /*Extra insurance against mobile elastic scrolling*/
+  color:white
+  
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-attachment:scroll;
+    
+    /* position: relative; */
+
+}
+
+.sub-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+    padding-top: 7rem;
+    /* margin-top: 30px; */
+}
+.myP{
+    /* border: 1px solid; */
+    width: 200px;
+    /* margin-top: 50px; */
+    position: absolute;
+}
+.myH1{
+    text-align: center;
+    background-color: purple;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+
+    z-index: 999;
+}
+/* #myButton{
+    margin-top: 620px;
+    position: absolute;
+
+} */
+#ttext{
+   margin-top: 30vh;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#ttext1{
+    margin-top: 45vh;
+    font-size: 3rem;
+}
+#H1{
+    margin-top: 4px;
+animation: blinker 2s linear infinite;
+}
+@keyframes blinker{
+    0% { opacity: 1.0;}
+    50%{ opacity: 0.0;}
+    100% { opacity: 1.0;}
+}
+#myButton {
+    font-size: 70px;
+    margin-top: 80vh;
+   
+    position: absolute;
+
+}
+
+
+#button{
+    font-size: 1.5rem;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 16px;
+    background-color: rgba(137, 194, 194, 0.791);
+}
