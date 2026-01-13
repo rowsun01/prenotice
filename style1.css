@@ -17,7 +17,7 @@ html, body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("./Screenshot\ 2026-01-12\ at\ 15.19.33.png") ;
     
@@ -52,7 +52,7 @@ html, body {
     background-color: purple;
     position: fixed;
     width: 100%;
-    height: 5%;
+    height: 7%;
     /* margin: 20px; */
     padding: 0;
     
@@ -85,7 +85,7 @@ animation: blinker 2s linear infinite;
 }
 #myButton {
     font-size: 70px;
-    margin-top: 78vh;
+    margin-top: 70vh;
     
    
     position: absolute;
