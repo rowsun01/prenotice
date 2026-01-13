@@ -26,6 +26,7 @@ function two(callback) {
 function three(callback) {
   setTimeout(() => {
     ttext.textContent="Make sure to take the day off or clear your schedule."
+    
     callback()
   }, 5000);
  
@@ -33,6 +34,7 @@ function three(callback) {
 function four(callback) {
   setTimeout(() => {
     ttext.textContent="You'll definitely want to be free for this special celebration."
+    ttext.style.fontSize="2rem";
     callback()  
   }, 5000);
  
