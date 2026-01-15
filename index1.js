@@ -1,15 +1,26 @@
-const text = document.getElementById("text");
+// const text = document.getElementById("text");
 const ttext = document.getElementById("ttext")
 const ttext1 = document.getElementById("ttext1");
 const audio = document.getElementById("myAudio");
 const button = document.getElementById("button");
 const button1 = document.getElementById("button1");
 // text.textContent="Apple"
-ttext.textContent="Hello Everybody👋"
+
+let username = "";
+
+while (username === "" || username === null || !username || !/^[a-zA-Z]+$/.test(username) || username.length<3)
+   username = prompt("Enter your name:")
+
+const userName = username.toUpperCase();
+
+ttext.textContent=`Hello ${userName} 👋`;
+
+
+
 
 function one(callback) {
   setTimeout(() => {
-    ttext.textContent="Mark your calendars!"
+    ttext.textContent="Mark your calendar !"
    
     callback()
   }, 5000);
