@@ -1,10 +1,11 @@
 // const text = document.getElementById("text");
-const ttext = document.getElementById("ttext")
+const ttext = document.getElementById("ttext");
 const ttext1 = document.getElementById("ttext1");
 const audio = document.getElementById("myAudio");
 const button = document.getElementById("button");
 const button1 = document.getElementById("button1");
 // text.textContent="Apple"
+
 
 let username = "";
 
@@ -20,7 +21,7 @@ ttext.textContent=`Hello ${userName} 👋`;
 
 function one(callback) {
   setTimeout(() => {
-    ttext.textContent="Mark your calendar !"
+    ttext.textContent="Mark your calendar ! ✅"
    
     callback()
   }, 5000);
@@ -28,7 +29,7 @@ function one(callback) {
 }
 function two(callback) {
   setTimeout(() => {
-    ttext.textContent="A special day is hitting the calendar on March 24."
+    ttext.textContent=`A special day is hitting the calendar on March 24. 🗓️`
     
     callback()
   }, 5000);
@@ -36,7 +37,7 @@ function two(callback) {
 }
 function three(callback) {
   setTimeout(() => {
-    ttext.textContent="Make sure to take the day off or clear your schedule."
+    ttext.textContent="Make sure to take the day off or clear your schedule. "
     
     callback()
   }, 5000);
@@ -44,7 +45,7 @@ function three(callback) {
 }
 function four(callback) {
   setTimeout(() => {
-    ttext.textContent="You'll definitely want to be free for this special celebration."
+    ttext.textContent="You'll definitely want to be free for this special celebration. 🥳"
     ttext.style.fontSize="2.5rem";
     callback()  
   }, 5000);
@@ -60,9 +61,9 @@ function five(callback) {
 };
 function six(callback) {
   setTimeout(() => {
-    ttext.textContent="THANK YOU ";
+    ttext.textContent="THANK YOU 🙏🏻";
     ttext.style.fontSize="3rem";
-    ttext1.textContent="Rosap's Family";
+    ttext1.textContent="Rosap's Family 👨‍👩‍👦";
     ttext1.style.color="yellow";
     callback()
   }, 5000);
